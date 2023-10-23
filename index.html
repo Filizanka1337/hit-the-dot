@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hit The Dot!!!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #222;
+            flex-direction: column; /* Dodaj flex-direction, aby elementy były ułożone jeden pod drugim */
+        }
+
+        h1 {
+            font-size: 60px;
+            color: #ff4d4d;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .red-dot {
+            width: 200px;
+            height: 200px;
+            background-color: #ff4d4d;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        /* Dodaj styl dla opisu gry */
+        .game-description {
+            color: black;
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: center; /* Wycentruj tekst */
+        }
+
+        /* Dodaj styl dla linków */
+        .download-link {
+            color: #5e6075;
+            font-size: 20px;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hit The Dot!!!</h1>
+    <div class="red-dot"></div>
+
+    <h1 style="color: black; font-size: 30px; margin-top: 30px;">Info about the game</h1>
+    <p class="game-description">
+        The game is just a fun clicker written in Python <br>
+        with saving progress, etc. <br>
+        Some antivirus programs may flag it as a false positive, but it's not a virus. <br>
+        You can download the game from the URLs below:
+    </p>
+
+    <h1 style="color: black; font-size: 30px; margin-top: 30px;">Downloads!</h1>
+    <a href="http://123.542.223.34:23" class="download-link">Click here to download the game!</a>
+    <a href="http://123.542.223.34:24" class="download-link">Other stuff</a>
+
+    <h1 style="color: red; font-size: 30px; margin-top: 30px;">Thanks for downloading our game!!</h1>
+    <h1 style="color: red; font-size: 30px; margin-top: 10px;">Bye :D</h1>
+</body>
+</html>
